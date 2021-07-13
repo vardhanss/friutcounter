@@ -1,0 +1,53 @@
+.span {
+  color: yellow;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.bg {
+  background-color: yellow;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+
+.fruitContainer {
+  background-image: linear-gradient(to bottom, red, blue, white, blue, green);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.bananaCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bananaImg {
+  height: 150px;
+  width: 120px;
+  margin-bottom: 22px;
+}
+
+.f {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
